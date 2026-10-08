@@ -1,4 +1,4 @@
-from diary_operations import menu, create_new_diary, view_modify_diary, delete_diary
+from diary_operations import menu, create_new_diary, select_diary, delete_diary
 
 print("Diary Application")
 
@@ -7,8 +7,8 @@ if choice == "1":
     print("New Diary selected")
     create_new_diary()
 elif choice == "2":
-    print("View/modify Existing Diary selected")
-    view_modify_diary()
+    print("Select Existing Diary selected")
+    select_diary()
 elif choice == "3":
     print("Delete Diary selected")
     delete_diary()
